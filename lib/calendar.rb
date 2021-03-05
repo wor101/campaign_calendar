@@ -1,6 +1,9 @@
 require 'bundler/setup'
 require 'yaml'
 
+
+class InvalidDate < StandardError ; end
+
 class Year
   attr_reader :number, :name, :type, :months
   
@@ -43,15 +46,38 @@ class Day
   end
 end
 
-
-
-
-class HarptosCalendar
-  attr_reader :years, :months
+class Date
+  attr_reader :calendar, :year, :month, :day, :hour, :minutes, :seconds
   
-  def initialize(year_yaml, month_yaml)
+  def initialize(calendar, year = 1367, month = 1, day = 1, hours = 0, minutes = 0, seconds = 0)
+    @calendar = calendar
+    @year = confirm_year(year)
+    @month = month
+    @day = day
+    @hour = hour
+    @minutes = minutes
+    @seconds = seconds
+  end
+  
+  private
+  
+  def confirm_year(year)
+    valid_years = calendar.years.map { |year| year.number }
+    
+    raise InvalidDate if valid_years.none?(year)
+    year
+  end
+  
+end
+
+
+class Calendar
+  attr_reader :years, :months, :name
+  
+  def initialize(year_yaml, month_yaml, name)
     @years = load_years(year_yaml)
     @months = load_months(month_yaml)
+    @name = name
   end
   
   private
