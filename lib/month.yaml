@@ -1,0 +1,103 @@
+---
+- number: 1
+  name: "Hammer"
+  description: "Deepwinter"
+  gregorian: "January"
+  weeks: 3
+  days: 30
+- number: 1.5
+  name: "Midwinter"
+  description: 'Deadwinter Day'
+  gregorian: "Christmas"
+  weeks: 0
+  days: 1
+- number: 2
+  name: "Alturiak"
+  description: "The Claw of Winter"
+  gregorian: "February"
+  weeks: 3
+  days: 30
+- number: 3
+  name: "Ches"
+  description: "The Claw of the Sunsets"
+  gregorian: "March"
+  weeks: 3
+  days: 30
+- number: 4
+  name: "Tarsakh"
+  description: "The Claw of the Storms"
+  gregorian: "April"
+  weeks: 3
+  days: 30
+- number: 4.5
+  name: "Greengrass"
+  description: ''
+  gregorian: 'Easter'
+  weeks: 0
+  days: 1
+- number: 5
+  name: "Mirtul"
+  description: "The Metling"
+  gregorian: "May"
+  weeks: 3
+  days: 30
+- number: 6
+  name: "Kythorn"
+  description: "The Time of Flowers"
+  gregorian: "June"
+  weeks: 3
+  days: 30
+- number: 7
+  name: "Flamerule"
+  description: "Summertide"
+  gregorian: "July"
+  weeks: 3
+  days: 30
+- number: 7.5
+  name: "Midsummer"
+  description: "Misdummer Night"
+  gregorian: '4th of July'
+  weeks: 0
+  days: 1
+- number: 8
+  name: "Eleasis"
+  description: "Highsun"
+  gregorian: "August"
+  weeks: 3
+  days: 30
+- number: 9
+  name: "Eleint"
+  description: "The Fading"
+  gregorian: "September"
+  weeks: 3
+  days: 30
+- number: 9.5
+  name: "Higharvestide"
+  description:
+  gregorian:
+  weeks: 0
+  days: 1
+- number: 10
+  name: "Marpenoth"
+  description: "Leafall"
+  gregorian: "October"
+  weeks: 3
+  days: 30
+- number: 11
+  name: "Uktar"
+  description: "The Rotting"
+  gregorian: "November"
+  weeks: 3
+  days: 30
+- number: 11.5
+  name: "The Feast of the Moon"
+  description: "Moonfest"
+  gregorian: "Thanksgiving"
+  weeks: 0
+  days: 1
+- number: 12
+  name: "Nightal"
+  description: "The Drawing Down"
+  gregorian: "December"
+  weeks: 3
+  days: 30

@@ -1,0 +1,25 @@
+---
+- number: 1366
+  name: "The Year of the Staff"
+  type: "DR" 
+- number: 1367
+  name: "The Year of the Shield"
+  type: "DR"
+- number: 1368
+  name: "The Year of the Banner"
+  type: "DR"
+- number: 1368
+  name: "The Year of the Banner"
+  type: "DR"
+- number: 1369
+  name: "The Year of the Banner"
+  type: "DR"
+- number: 1370
+  name: "The Year of the Gauntlet"
+  type: "DR"
+- number: 1371
+  name: "The Year of the Unstrung Harp"
+  type: "DR"
+- number: 1372
+  name: "The Year of the Wild Magic"
+  type: "DR"
