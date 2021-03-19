@@ -18,14 +18,34 @@ Calendar.new(type, year, month, day, hours, minutes, seconds)
 
 
 Data Structures:
-YEARS = [Year1, Year2, Year3]
-MONTHS = [Month1, Month2, Holiday, Month3, Month4, Holiday]
+Date Object
+  - year
+  - month
+  - day
+  - time
 
-Year - number, name, type, months
-Month - number, name, description, gregorian, weeks
-Week - number, name, description, days
-Day - number, name, hours
+Year Object
+  - Number
+  - Name
+  - Type
 
+Month Object
+  - number
+  - name
+  - description
+  - gregorian
+  - weeks
+  - days
+
+Day Object
+  - number
+
+Time Object
+  - hours
+  - minutes 
+  - seconds
 
 Algorithms:
+
+
 
